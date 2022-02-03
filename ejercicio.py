@@ -29,3 +29,11 @@ def primo(n):
 num_primos = list(filter(primo,elem_maximos))
 
 print ('Los primos son: ', num_primos)
+
+def suma (a,b):
+    return a+b
+
+from functools import reduce
+resultado_suma = reduce(suma,num_primos)
+
+print ('La suma de los primos es: ', resultado_suma)
