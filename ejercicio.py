@@ -19,3 +19,13 @@ def maximo (lista):
 elem_maximos = list(map(maximo,m2))
 
 print ('Los elementos mayores son: ', elem_maximos)
+
+def primo(n):
+    for i in range (2,n):
+        if (n%i == 0):
+            return False
+    return True
+
+num_primos = list(filter(primo,elem_maximos))
+
+print ('Los primos son: ', num_primos)
