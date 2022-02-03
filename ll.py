@@ -1,4 +1,3 @@
-letras = []
-for i in 'Python es el mejor lenguaje de programacion':
-    letras.append(i)
+letras = [i for i in 'Python es el mejor lenguaje de programacion']
+
 print (letras)
